@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-bridge-mas"
+version = "1.0.0"
+description = "Neural communication layer for multi-agent AI systems — 90%+ token compression via latent vector transmission"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["multi-agent", "AI", "latent-space", "neural-bridge", "LLM", "token-compression"]
+dependencies = ["numpy"]
+
+[project.urls]
+Homepage = "https://github.com/Prathuish-dev/Neural-Bridge-MAS"
+Repository = "https://github.com/Prathuish-dev/Neural-Bridge-MAS"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["neural_bridge_mas*"]
